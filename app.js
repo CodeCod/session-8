@@ -1,45 +1,57 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Manuel",
+    lastName: "Ausloos",
+    description: "Je suis très bô. Pls hire.",
+    photo: "/Users/veroniqueadmin/Desktop/Autres/Photos de moments de ma vie/Photos pro. L'actualité oct. 2016/MANUEL_05.jpg",
+    twitter: "manuoos",
+    github: "CodeCod",
+    mail: "manuel.ausloos@gmail.com",
     experiences: [{
-      dateBegin: "2014",
+      dateBegin: "Sept. 2017",
       dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
+      name: "Reuters TV",
+      title: "JRI pigiste",
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }, {
-      dateBegin: "Été 2013",
-      dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      dateBegin: "Août 2017",
+      dateEnd: "Août 2017",
+      name: "Le Monde",
+      title: "Stagiaire",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "Juin 2017",
+      dateEnd: "Août 2017",
+      name: "Reuters TV",
+      title: "Stagiaire",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }, {
+      dateBegin: "Mai 2017",
+      dateEnd: "Octobre 2016",
+      name: "Musée du Château Ramezay",
+      title: "Stagiaire",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    }, {
+      dateBegin: "Octobre 2016",
+      dateEnd: "Juin 2017",
+      name: "Magazine L'actualité",
+      title: "Pupitreur Web",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
-      name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2017",
+      dateEnd: "...",
+      name: "Double-master Journalisme et Affaires internationales",
+      university: "EDJ de Sciences Po"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2015",
+      dateEnd: "2016",
+      name: "Certificat en journalisme",
+      university: "Université de Montréal"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais, Espagnol"],
+    skills: ["Suite Office"]
   },
   computed: {
     fullName() {
